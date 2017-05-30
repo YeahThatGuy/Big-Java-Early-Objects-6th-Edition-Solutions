@@ -1,9 +1,7 @@
-package tiles;
-
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Tiles {
+public class WorkedExample11 {
 
     public static void main(String[] args) {
 
@@ -33,27 +31,6 @@ public class Tiles {
         }
         System.out.println(Arrays.deepToString(floor));
 
-        /*
-         int[] arrLength = new int[i];
-         int[] arrWidth = new int[j];
-         int b = 0;
-         int w = 1;
-
-         arrLength[0] = b;
-         System.out.println(arrLength[0]);
-
-         for (int iRow = 1; iRow < arrLength.length; iRow++) {
-         if (arrLength[iRow - 1] == 0) {
-         arrLength[iRow] = 1;
-         } else {
-         arrLength[iRow] = 0;
-         }
-         System.out.print(arrLength[iRow]);
-         }
-        
-         for (int iCol = 1; iCol < arrWidth.length; iCol++) {
-         if
-         } */
     }
 
 }
