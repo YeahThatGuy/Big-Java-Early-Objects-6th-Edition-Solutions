@@ -12,7 +12,7 @@ http://www.math.com/tables/geometry/surfareas.htm */
 
 import java.util.Scanner;
 
-public class HousePaint {
+public class R115 {
 
     public static void main(String[] args) {
 
