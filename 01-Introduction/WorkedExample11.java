@@ -1,3 +1,7 @@
+/*My interpretation of Worked Example 1.1
+The objective is to fill a 2D floor with alternating tile colours.
+In this solution, 1 stand for black tiles and 0 for white tiles.*/
+
 import java.util.Arrays;
 import java.util.Scanner;
 
