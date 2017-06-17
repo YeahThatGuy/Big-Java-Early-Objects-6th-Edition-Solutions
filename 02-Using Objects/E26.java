@@ -1,4 +1,4 @@
-package PracticeAnswers;
+package Ch2Exercises;
 
 import java.util.Scanner;
 
@@ -8,8 +8,12 @@ public class E26 {
         Scanner input = new Scanner(System.in);
         String word = input.nextLine();
         
-        String encodedWord = word.replace("i", "!");
-        //encodedWord = word.replace("s", "$");
-        System.out.println(encodedWord);
+        String encodedWord = word;
+        
+        while (encodedWord.contains("i") && encodedWord.contains("s")) {
+            encodedWord = encodedWord.replace("i", "!");
+            encodedWord = encodedWord.replace("s", "$");
+        }
+        System.out.println("The encoded version of " + word + " is: " + encodedWord);
     }
 }
