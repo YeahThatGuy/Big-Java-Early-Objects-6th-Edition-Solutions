@@ -1,5 +1,3 @@
-package PracticeAnswers;
-
 import java.awt.Rectangle;
 
 public class E25 {
