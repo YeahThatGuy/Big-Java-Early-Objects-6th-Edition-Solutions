@@ -1,5 +1,3 @@
-package PracticeAnswers;
-
 public class E23 {
     public static void main(String[] args) {
         
