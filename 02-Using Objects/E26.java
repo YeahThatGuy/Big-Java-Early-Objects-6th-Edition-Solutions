@@ -1,5 +1,3 @@
-package Ch2Exercises;
-
 import java.util.Scanner;
 
 public class E26 {
