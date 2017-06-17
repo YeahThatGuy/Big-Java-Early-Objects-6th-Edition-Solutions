@@ -1,5 +1,3 @@
-package Ch2Exercises;
-
 public class E27 {
 
     public static void main(String[] args) {
