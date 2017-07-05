@@ -38,6 +38,10 @@ public class Car {
         return gasRefuel - ((fuelConsumption * drivingDistance) / 100);
     }
     
+    /**
+     * Displays the distance driven (in km)
+     * @return the distance driven (in km)
+     */
     public int getKilometresDriven() {
         return drivingDistance;
     }
