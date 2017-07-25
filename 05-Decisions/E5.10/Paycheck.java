@@ -6,7 +6,6 @@ import java.util.Scanner;
 
 /**
  * Calculates the weekly paycheck, accounting for overtime
- * @author josan.c
  */
 public class Paycheck {
 
